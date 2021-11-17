@@ -1,0 +1,15 @@
+*{
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+.pitanje{
+    margin: 0 auto;
+    width: 700px;
+    border: 2px solid black;
+}
