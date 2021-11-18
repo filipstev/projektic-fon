@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 65px;
+    background-color: #1b1f23;
+    position: sticky;
+    top:0;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+.nav .logo{
+    float: left;
+    width: 20%;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+.nav ul li{
+    float:left;
+    padding: 0 30px;
+}
+
+.nav ul li a{
+    color:#919497;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
