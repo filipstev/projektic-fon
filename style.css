@@ -31,6 +31,11 @@
     float:left;
     padding: 0 30px;
 }
+.nav ul li:hover{
+    background-color: white;
+    transform: scale(1.15);
+    
+}
 
 .nav ul li a{
     color:#03090f;
