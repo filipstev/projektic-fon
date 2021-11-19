@@ -79,3 +79,10 @@ ol{
     width: 500;
     margin-bottom: 60px;
 }
+
+@media only screen and (min-width: 1600px) {
+    .main {
+        margin-left: 450px;
+        margin-right: 400px;
+    }
+}
