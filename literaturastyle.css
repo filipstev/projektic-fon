@@ -1,5 +1,4 @@
-
-body .aktivno {
+body .blok {
     
     margin-top: 60px;
     margin-left: 80px;
@@ -51,19 +50,33 @@ body .aktivno {
     transform: scale(1.15);
     
 }
-h1{
-    text-align: center;
+
+
+.knjigepocetak .knjige {
+    width: 1600px;
+    margin: 0 auto;
+    padding: 100px;
+   
+
+
+
 }
-body .pitanje{
-    margin-left: 1000px;
-    width: 700px;
-    border: 2px solid black;
-    background-color: rgb(255, 236, 127);
+.knjige img{
+    width: 100%;
+    
 }
- body .citat{
-    margin-left: 1000px;
-    width: 700px;
+.knjige .kartica{
+    float:left;
+    width: calc((100% - 200px)/5);
+    margin-right: 320px;
+    margin-left: 150px;
+    margin-bottom: 100px;
     border: 2px solid black;
-    background-color: rgb(134, 206, 112);
+    padding: 10px;
+    transition: transform .2s
+}
+.kartica:hover{
+    transform: scale(1.15);
+    background-color: darkorange;
 }
 
