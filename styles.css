@@ -1,8 +1,44 @@
-*{
+.nav{
+    height: 65px;
+    background-color: rgb(104, 195, 223);
+    position: sticky;
+    top:0;
+    margin-top: 0;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+.nav .logo{
+    float: left;
+    width: 20%;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    font-weight: 600;
+    
+}
+
+.nav ul li{
+    float:left;
+    padding: 0 30px;
+}
+
+.nav ul li a{
+    color:#03090f;
+    line-height: 65px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.main {
+    
     margin-top: 60px;
     margin-left: 80px;
     margin-right: 80px;
     margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
