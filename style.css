@@ -6,7 +6,7 @@
 
 .nav{
     height: 65px;
-    background-color: #1b1f23;
+    background-color: rgb(104, 195, 223);
     position: sticky;
     top:0;
 }
@@ -22,6 +22,7 @@
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    text-shadow: 2px 2px black;
     font-weight: 600;
     
 }
@@ -32,7 +33,7 @@
 }
 
 .nav ul li a{
-    color:#919497;
+    color:#03090f;
     line-height: 65px;
     text-decoration: none;
     font-size: 14px;
