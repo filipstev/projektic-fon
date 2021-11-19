@@ -13,17 +13,17 @@ body {
   flex-direction: column;
   align-items: center;
 }
-h1 {
+/*h1 {
   font-size: 60px;
   margin: 20px 0;
-}
+}*/
 .lista {
   width: 100%;
   list-style-type: none;
   margin-bottom: 20px;
 }
 .lista .stavka {
-  background-color: green;
+  background-color: #51b3e0;
   margin: 5px 0;
   border: 2px solid black;
   padding: 5px;
@@ -38,6 +38,14 @@ h1 {
 .ime-stavke:focus {
   outline: none;
 }
+.lista:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.lista:disabled {
+  cursor: auto;
+}
+
 
 .mali {
   background-color: transparent;
@@ -48,22 +56,21 @@ h1 {
   outline: none;
 }
 
-
 /* Dugme 1*/
 .button-1 {
   appearance: button;
-  background-color: #1899D6;
+  background-color: #1899d6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  font-family: din-round, sans-serif;
   font-size: 15px;
   font-weight: 700;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   line-height: 20px;
   margin: 0;
   outline: none;
@@ -73,7 +80,7 @@ h1 {
   text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
-  transition: filter .2s;
+  transition: filter 0.2s;
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
@@ -83,7 +90,7 @@ h1 {
 
 .button-1:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #1cb0f6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -111,18 +118,18 @@ h1 {
 /* Dugme 19*/
 .button-19 {
   appearance: button;
-  background-color: #1899D6;
+  background-color: #1899d6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  font-family: din-round, sans-serif;
   font-size: 15px;
   font-weight: 700;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   line-height: 20px;
   margin: 0;
   outline: none;
@@ -132,7 +139,7 @@ h1 {
   text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
-  transition: filter .2s;
+  transition: filter 0.2s;
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
@@ -142,7 +149,7 @@ h1 {
 
 .button-19:after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #1cb0f6;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -167,3 +174,22 @@ h1 {
 .button-19:disabled {
   cursor: auto;
 }
+
+h1 {
+  color: #1899d6;
+  font-family: "Rouge Script", cursive;
+  font-size: 130px;
+  font-weight: normal;
+  line-height: 120px;
+  margin: 0 0 160px;
+  text-align: center;
+  text-shadow: 3px 3px 5px #082b34;
+}
+h1:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+h1:disabled {
+  cursor: auto;
+}
+
