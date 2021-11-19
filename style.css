@@ -44,3 +44,11 @@
     font-size: 14px;
     text-transform: uppercase;
 }
+
+.pandice{
+    height: 700px;
+    width: 700px;
+    margin-left: -150px;
+   position: absolute;
+
+}
