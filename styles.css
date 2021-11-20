@@ -48,8 +48,8 @@
 .main {
     
     margin-top: 60px;
-    margin-left: 80px;
-    margin-right: 100px;
+    margin-left: 350px;
+    margin-right: 320px;
     margin-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -68,4 +68,73 @@ ol{
 .poslednji{
     margin-bottom: 100px;
 }
+
+.panda{
+    height: 500px;
+    width: 800px;
+}
+
+.panda1{
+    height: 500px;
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+@media only screen and (min-width: 1600px) {
+    .main {
+        margin-left: 450px;
+        margin-right: 400px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        display:flex ;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ciljevi{
+        height: 150px;
+        width: 150px;
+    }
+    .nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav .logo{
+        width: 100%;
+    }
+    .panda{
+        height: 150px;
+        width: 150px;
+    }
+    .Tim{
+        height: 150px;
+        width: 150px;
+    }
+    .panda1{
+        height: 150px;
+        width: 150px;
+    }
+    .drvo{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+
 
