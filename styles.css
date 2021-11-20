@@ -86,8 +86,7 @@ ol{
         margin-right: 400px;
     }
 }
-
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 420px) {
     .main {
         margin-left: 0;
         margin-right: 0;
@@ -101,5 +100,41 @@ ol{
         height: 150px;
         width: 150px;
     }
+    .nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav .logo{
+        width: 100%;
+    }
+    .panda{
+        height: 150px;
+        width: 150px;
+    }
+    .Tim{
+        height: 150px;
+        width: 150px;
+    }
+    .panda1{
+        height: 150px;
+        width: 150px;
+    }
+    .drvo{
+        height: 150px;
+        width: 150px;
+    }
 }
+
+
+
+
