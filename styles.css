@@ -76,7 +76,7 @@ ol{
 
 .panda1{
     height: 500px;
-    width: 500;
+    width: 500px;
     margin-bottom: 60px;
 }
 
@@ -85,4 +85,21 @@ ol{
         margin-left: 450px;
         margin-right: 400px;
     }
+}
+
+@media only screen and (max-width: 420px){
+    .main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        display:flex ;
+        flex-direction: column;
+        width: 100%;
+    }
+    .ciljevi{
+        height: 150px;
+        width: 150px;
+    }
+
 }
