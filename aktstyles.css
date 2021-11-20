@@ -1,5 +1,5 @@
 
-body .aktivno {
+.aktivno {
     
     margin-top: 60px;
     margin-left: 80px;
@@ -13,6 +13,9 @@ body .aktivno {
     position: sticky;
     top:0;
     margin-top: 0;
+        
+        
+    
 }
 
 .nav ul{

@@ -1,3 +1,4 @@
+
 body .blok {
     
     margin-top: 60px;
@@ -68,13 +69,13 @@ body .blok {
 .knjige .kartica{
     float:left;
     width: calc((100% - 200px)/5);
-    margin-right: 320px;
-    margin-left: 150px;
+    
     margin-bottom: 100px;
     border: 2px solid black;
     padding: 10px;
     transition: transform .2s
 }
+
 .kartica:hover{
     transform: scale(1.15);
     background-color: darkorange;
