@@ -1,10 +1,15 @@
-
-body .blok {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.blok {
     
     margin-top: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 460px;
+    margin-bottom: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav{
@@ -68,9 +73,12 @@ body .blok {
 }
 .knjige .kartica{
     float:left;
-    width: calc((100% - 200px)/5);
+    width: calc(100%/2);
     
     margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 460px;
+    
     border: 2px solid black;
     padding: 10px;
     transition: transform .2s
@@ -81,4 +89,56 @@ body .blok {
     background-color: darkorange;
     
 } 
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+    
+}
+@media only screen and (max-width: 420px){
+    .blok {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        display:flex ;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav .logo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .blok {
+       
+        margin-top: 60px;
+        margin-left: 350px;
+        margin-right: 320px;
+        margin-bottom: 20px;
+    }
+    .knjige .kartica{
+        margin-bottom: 60px;
+        margin-left: 120px;
+        margin-right: 300px;
+
+    }
+}
 

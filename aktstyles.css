@@ -1,21 +1,42 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 18px; */
+}
 .aktivno {
     
-    margin-top: 60px;
-    margin-left: 80px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 480px;
+    margin-bottom: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 50px;
+}
+h2{
+    margin-bottom: 30px;
+}
+ul{
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+ul li{
+    margin-bottom: 10px;
+}
+
 .nav{
     height: 65px;
     background-color: rgb(104, 195, 223);
     position: sticky;
     top:0;
-    margin-top: 0;
-        
-        
-    
+    margin-top: -20px;
 }
 
 .nav ul{
@@ -54,19 +75,82 @@
     transform: scale(1.15);
     
 }
-h1{
-    text-align: center;
-}
-body .pitanje{
-    margin-left: 1000px;
+
+.pitanje{
+    margin: 100px auto;
     width: 700px;
     border: 2px solid black;
     background-color: rgb(255, 236, 127);
 }
- body .citat{
-    margin-left: 1000px;
+.citat{
+    margin: 100px auto;
     width: 700px;
     border: 2px solid black;
     background-color: rgb(134, 206, 112);
+}
+img {
+    display: block;
+    margin: 100px auto;
+    
+
+}
+@media only screen and (max-width: 420px){
+    .aktivno {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        display:flex ;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .nav{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav .logo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .aktivno {
+    
+        margin-top: 60px;
+        margin-left: 350px;
+        margin-right: 320px;
+        margin-bottom: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    p{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    h1{
+        margin-bottom: 60px;
+    }
+    h2{
+        margin-bottom: 10px;
+    }
+    ul{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    img {
+        display: block;
+        margin: 100px auto;
+        width: 600px;
+    
+    }
 }
 
